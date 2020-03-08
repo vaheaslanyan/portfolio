@@ -16,6 +16,7 @@ body {
   display: block;
   margin-right: -15px;
   margin-left: -15px;
+  overflow-y: auto;
 }
 
 .row-odd {
@@ -37,7 +38,9 @@ body {
 }
 
 .inside-row-div {
-  height: 600px;
+  justify-content: center;
+  /*  height: 600px;*/
+  min-height: 600px;
   margin: 2rem;
   display: flex;
 }
@@ -57,6 +60,7 @@ body {
   width: 200px;
   object-fit: cover;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 2rem;
 }
 
 .hello-container-div {
@@ -70,7 +74,6 @@ body {
 }
 
 .hello-container-div h1 {
-  margin-top: 1rem;
   font-size: 2.5rem;
 }
 
@@ -86,18 +89,20 @@ body {
   padding: 0.3rem;
   text-transform: uppercase;
   width: 100vw;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-/*About.js */
+/* About.js */
 
 .about-content {
+  margin: 0 2rem;
   text-align: center;
+  color: white;
   height: 600px;
   width: 600px;
   border-radius: 30px;
   background-color: brown;
-  display: flex;
+  display: block;
   clip-path: polygon(
     0% 0%,
     100% 0%,
@@ -107,4 +112,38 @@ body {
     50% 75%,
     0% 75%
   );
+  padding: 3rem 4rem;
+}
+
+.about-content p {
+  font-weight: 100;
+  text-align: left;
+  line-height: 1.8;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+/* Projects.js */
+
+.project-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icons img {
+  border-radius: 50%;
+  width: 200px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-div .card {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+}
+
+.card-body {
+  background-color: #de9800;
 }
