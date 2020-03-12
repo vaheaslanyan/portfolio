@@ -16,7 +16,7 @@ body {
   display: block;
   margin-right: -15px;
   margin-left: -15px;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 
 .row-odd {
@@ -149,17 +149,24 @@ body {
   background-color: #de9800;
 }
 
+/* Knowledge.js */
+
 .knowledge-item {
   width: 250px;
   height: 280px;
   margin: 20px auto 0 auto;
   background-color: #222 !important;
   border-radius: 20px;
+  padding-top: 0.5rem;
 }
 
-/* Knowledge.js */
+.knowledge-item img {
+  max-width: 200px;
+}
 
-/* -- React -- */
+.knowledge-content h3 {
+  margin-top: 2rem;
+}
 
 .knowledge-logo-container {
   width: 250px;
@@ -169,6 +176,20 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.knowledge-item-title {
+  word-wrap: break-word;
+  line-height: 1em;
+  max-height: 2em;
+  max-width: 200px;
+  margin: auto;
+  font-size: 30px;
+  font-weight: 200;
+  color: #aaabb8;
+  justify-content: center;
+}
+
+/* -- React -- */
 
 .react-logo {
   display: inline-block;
@@ -221,15 +242,23 @@ body {
   transform: rotate(57deg);
 }
 
-.knowledge-item-title {
-  font-size: 40px;
-  color: #00d8ff;
-  width: 250px;
-  text-align: center;
-}
-
 @keyframes rotate {
   100% {
     transform: rotate(360deg);
   }
+}
+
+/* React over */
+
+.ejs-logo-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #a91e50;
+  font-size: 80px;
+}
+.express-logo-text {
+  font-family: "Helvetica", sans-serif;
+  font-weight: 100;
+  font-size: 60px;
+  color: beige;
 }
