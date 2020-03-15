@@ -103,7 +103,7 @@ const Knowledge = () => {
               </Row>
               <Row>
                 <Col>
-                  <h3>Libraries</h3>
+                  <h3>Libraries and Deployment</h3>
                 </Col>
               </Row>
               <Row>
@@ -119,7 +119,37 @@ const Knowledge = () => {
                 </Col>
                 <Col>
                   <div className="knowledge-item knowledge-mini">
-                    <h5 className="library-name">Bootstrap</h5>
+                    <h5 className="library-name">Heroku</h5>
+                  </div>
+                </Col>
+                <Col>
+                  <div className="knowledge-item knowledge-mini">
+                    <h5 className="library-name">Firebase</h5>
+                  </div>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <h3>Currently Learning</h3>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <div className="knowledge-item knowledge-normal">
+                    <div className="knowledge-logo-container">
+                      <img src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1584309126/portfolio/swiftui-96x96_2x_kkibsb.png"></img>
+                    </div>
+                    <h5 className="knowledge-item-title">SwiftUI</h5>
+                  </div>
+                </Col>
+                <Col>
+                  <div className="knowledge-item knowledge-normal">
+                    <div className="knowledge-logo-container">
+                      <div className="react-logo">
+                        <div className="nucleo"></div>
+                      </div>
+                    </div>
+                    <h5 className="knowledge-item-title">React Native</h5>
                   </div>
                 </Col>
               </Row>

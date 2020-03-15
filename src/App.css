@@ -41,8 +41,23 @@ body {
   justify-content: center;
   /*  height: 600px;*/
   min-height: 600px;
-  margin: 2rem;
+  margin: 5rem 2rem;
   display: flex;
+}
+
+.inside-row-div h3 {
+  margin-top: 5rem;
+  font-size: 2rem;
+  font-weight: 100;
+  border-radius: 20px;
+}
+
+.row-odd h3 {
+  background-color: #2ea1d3;
+}
+
+.row-even h3 {
+  background-color: #b2b3c0;
 }
 
 /* Hello.js */
@@ -53,13 +68,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
 }
 
 .profile-div img {
   border-radius: 50%;
   width: 200px;
   object-fit: cover;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
   margin-bottom: 2rem;
 }
 
@@ -82,7 +98,7 @@ body {
   font-weight: 500;
 }
 
-.hello-container-div h3 {
+.hello-container-div h2 {
   background-color: #005a80;
   color: #aaabb8;
   font-size: 1rem;
@@ -138,15 +154,43 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.icons img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
 .project-div .card {
-  background-color: transparent;
+  background-color: unset;
   border: none;
   border-radius: 50%;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
+}
+
+.accordion {
+  background-color: transparent;
 }
 
 .card-body {
-  background-color: #de9800;
+  background-color: #00567a;
+  color: white;
+  border-radius: 20px;
+  text-align: left;
+  font-weight: 100;
+}
+
+.card-body h4,
+.card-body h5 {
+  color: #2e9cca;
+  font-weight: 100;
+}
+
+.card-body ul {
+  list-style-type: none;
+}
+
+.project-div .card-header {
+  background-color: transparent;
+  border: none;
+  padding-bottom: 30px;
 }
 
 /* Knowledge.js */
@@ -171,10 +215,6 @@ body {
 
 .knowledge-item img {
   max-width: 200px;
-}
-
-.knowledge-content h3 {
-  margin-top: 2rem;
 }
 
 .knowledge-logo-container {
