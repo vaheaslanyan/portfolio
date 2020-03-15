@@ -16,7 +16,7 @@ body {
   display: block;
   margin-right: -15px;
   margin-left: -15px;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .row-odd {
@@ -152,12 +152,21 @@ body {
 /* Knowledge.js */
 
 .knowledge-item {
+  overflow: auto;
   width: 250px;
-  height: 280px;
   margin: 20px auto 0 auto;
   background-color: #222 !important;
   border-radius: 20px;
-  padding-top: 0.5rem;
+}
+
+.knowledge-normal {
+  height: 280px;
+}
+
+.knowledge-mini {
+  height: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .knowledge-item img {
@@ -169,9 +178,9 @@ body {
 }
 
 .knowledge-logo-container {
+  margin: 10% auto 5%;
   width: 250px;
   height: 200px;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -183,7 +192,7 @@ body {
   max-height: 2em;
   max-width: 200px;
   margin: auto;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 200;
   color: #aaabb8;
   justify-content: center;
@@ -261,4 +270,11 @@ body {
   font-weight: 100;
   font-size: 60px;
   color: beige;
+}
+
+.library-name {
+  margin: auto;
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: #aaabb8;
 }

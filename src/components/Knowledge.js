@@ -13,7 +13,7 @@ const Knowledge = () => {
       <div className="row row-even">
         <div className="inside-row-div">
           <Container>
-            <div className="knowledge-content">
+            <div className="knowledge-content ">
               <Row>
                 <Col>
                   <h3>Must-haves</h3>
@@ -21,27 +21,27 @@ const Knowledge = () => {
               </Row>
               <Row>
                 <Col>
-                  <div className="knowledge-item">
+                  <div className="knowledge-item knowledge-normal">
                     <div className="knowledge-logo-container">
                       <img src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1583979993/portfolio/html_jqmdao.png"></img>
                     </div>
-                    <p className="knowledge-item-title">HTML</p>
+                    <h5 className="knowledge-item-title">HTML</h5>
                   </div>
                 </Col>
                 <Col>
-                  <div className="knowledge-item">
+                  <div className="knowledge-item knowledge-normal">
                     <div className="knowledge-logo-container">
                       <img src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1583979993/portfolio/css_bzott5.png"></img>
                     </div>
-                    <p className="knowledge-item-title">CSS</p>
+                    <h5 className="knowledge-item-title">CSS</h5>
                   </div>
                 </Col>
                 <Col>
-                  <div className="knowledge-item">
+                  <div className="knowledge-item knowledge-normal">
                     <div className="knowledge-logo-container">
                       <img src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1583979993/portfolio/js_wfxwvm.png"></img>
                     </div>
-                    <p className="knowledge-item-title">JavaScript</p>
+                    <h5 className="knowledge-item-title">JavaScript</h5>
                   </div>
                 </Col>
               </Row>
@@ -52,21 +52,21 @@ const Knowledge = () => {
               </Row>
               <Row>
                 <Col>
-                  <div className="knowledge-item">
+                  <div className="knowledge-item knowledge-normal">
                     <div className="knowledge-logo-container">
-                      <span className="react-logo">
-                        <span className="nucleo"></span>
-                      </span>
+                      <div className="react-logo">
+                        <div className="nucleo"></div>
+                      </div>
                     </div>
-                    <p className="knowledge-item-title">React</p>
+                    <h5 className="knowledge-item-title">React</h5>
                   </div>
                 </Col>
                 <Col>
-                  <div className="knowledge-item">
+                  <div className="knowledge-item knowledge-normal">
                     <div className="knowledge-logo-container">
                       <p className="ejs-logo-text">EJS</p>
                     </div>
-                    <p className="knowledge-item-title">Embeded JavaScript</p>
+                    <h5 className="knowledge-item-title">Embeded JavaScript</h5>
                   </div>
                 </Col>
               </Row>
@@ -77,33 +77,50 @@ const Knowledge = () => {
               </Row>
               <Row>
                 <Col>
-                  <div className="knowledge-item">
+                  <div className="knowledge-item knowledge-normal">
                     <div className="knowledge-logo-container">
-                      <img src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1583982631/portfolio/nodejs-logo-png-node-js-on-dark-background-1843_sg1d26.png"></img>
+                      <img src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1583983273/portfolio/nodejs-logo-png-node-js-on-dark-background-1843_hqynup.png"></img>
                     </div>
-                    <p className="knowledge-item-title">node.js</p>
+                    <h5 className="knowledge-item-title">node.js</h5>
                   </div>
                 </Col>
                 <Col>
-                  <div className="knowledge-item">
+                  <div className="knowledge-item knowledge-normal">
                     <div className="knowledge-logo-container">
                       <p className="express-logo-text">express</p>
                     </div>
-                    <p className="knowledge-item-title">express.js</p>
+                    <h5 className="knowledge-item-title">express.js</h5>
                   </div>
                 </Col>
                 <Col>
-                  <div className="knowledge-item">
+                  <div className="knowledge-item knowledge-normal">
                     <div className="knowledge-logo-container">
                       <img src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1583983303/portfolio/mongodb-logo-white_anvha0.png"></img>
                     </div>
-                    <p className="knowledge-item-title">mongoDB</p>
+                    <h5 className="knowledge-item-title">mongoDB</h5>
                   </div>
                 </Col>
               </Row>
               <Row>
                 <Col>
                   <h3>Libraries</h3>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <div className="knowledge-item knowledge-mini">
+                    <h5 className="library-name">Bootstrap</h5>
+                  </div>
+                </Col>
+                <Col>
+                  <div className="knowledge-item knowledge-mini">
+                    <h5 className="library-name">jQuery</h5>
+                  </div>
+                </Col>
+                <Col>
+                  <div className="knowledge-item knowledge-mini">
+                    <h5 className="library-name">Bootstrap</h5>
+                  </div>
                 </Col>
               </Row>
             </div>
