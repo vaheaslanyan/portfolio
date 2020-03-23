@@ -1,5 +1,7 @@
 import React from "react";
 
+import SocialBar from "./shared/SocialBar";
+
 //fontawesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -25,16 +27,9 @@ const Contact = () => {
               </Row>
               <Row>
                 <Col>
-                  <FontAwesomeIcon icon={faGit} />
-                </Col>
-                <Col>
-                  <FontAwesomeIcon icon={faLinkedin} />
-                </Col>
-                <Col>
-                  <FontAwesomeIcon icon={faEnvelope} />
+                  <SocialBar />
                 </Col>
               </Row>
-              <Row></Row>
             </div>
           </Container>
         </div>
