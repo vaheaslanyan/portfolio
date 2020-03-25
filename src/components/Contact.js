@@ -22,7 +22,23 @@ const Contact = () => {
             <div className="contact-content">
               <Row>
                 <Col>
-                  <h3>How to get a hold of me.</h3>
+                  <p aria-label="CodePen">
+                    <span data-text="C">C</span>
+                    <span data-text="O">O</span>
+                    <span data-text="N">N</span>
+                    <span data-text="T">T</span>
+                    <span data-text="A">A</span>
+                    <span data-text="C">C</span>
+                    <span data-text="T">T</span>
+                  </p>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <h4>
+                    I am currently <span className="available">available</span>{" "}
+                    for work.
+                  </h4>
                 </Col>
               </Row>
               <Row>

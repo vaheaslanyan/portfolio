@@ -45,6 +45,16 @@ body {
   display: flex;
 }
 
+.inside-row-div h4 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.available {
+  color: green;
+}
+
 .inside-row-div h3 {
   width: 100%;
   margin-top: 5rem;
@@ -98,12 +108,9 @@ body {
 
 .social-content .social-item {
   display: inline-block;
+  transform-style: preserve-3d;
   font-size: 30px;
   margin: 0 2rem;
-}
-
-.social-item:hover {
-  color: white;
 }
 
 .social-item .fa-git {
@@ -119,6 +126,68 @@ body {
 }
 
 .social-item:hover {
+}
+
+/* Buzz 
+@-webkit-keyframes social-item {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+@keyframes social-item {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+.social-item {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.social-item:hover,
+.social-item:focus,
+.social-item:active {
+  -webkit-animation-name: social-item;
+  animation-name: social-item;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+*/
+
+/* Bounce In */
+.social-item {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.social-item:hover,
+.social-item:focus,
+.social-item:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
 /* Hello.js */
@@ -388,4 +457,83 @@ body {
 .contact-content h3 {
   margin-bottom: 2rem;
   padding: 0 1rem;
+}
+
+/* CONTACT text */
+
+.contact-content p {
+  color: #fff;
+  font-family: Avenir Next, Helvetica Neue, Helvetica, Tahoma, sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.contact-content p span {
+  display: inline-block;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-perspective: 500;
+  perspective: 500;
+  -webkit-font-smoothing: antialiased;
+}
+.contact-content p span::before,
+.contact-content p span::after {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -1px;
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: all ease-out 0.3s;
+  transition: all ease-out 0.3s;
+  content: attr(data-text);
+}
+.contact-content p span::before {
+  z-index: 1;
+  color: rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(1.1, 1) skew(0deg, 20deg);
+  transform: scale(1.1, 1) skew(0deg, 20deg);
+}
+.contact-content p span::after {
+  z-index: 2;
+  color: #2e9cca;
+  text-shadow: -1px 0 1px #2e9cca, 1px 0 1px rgba(0, 71, 102, 0.8);
+  -webkit-transform: rotateY(-40deg);
+  transform: rotateY(-40deg);
+}
+.contact-content p span:hover::before {
+  -webkit-transform: scale(1.1, 1) skew(0deg, 5deg);
+  transform: scale(1.1, 1) skew(0deg, 5deg);
+}
+.contact-content p span:hover::after {
+  -webkit-transform: rotateY(-10deg);
+  transform: rotateY(-10deg);
+}
+.contact-content p span + span {
+  margin-left: 0.3em;
+}
+@media (min-width: 20em) {
+  .contact-content p {
+    font-size: 2em;
+  }
+  .contact-content p span::before,
+  .contact-content p span::after {
+    display: block;
+  }
+}
+@media (min-width: 30em) {
+  .contact-content p {
+    font-size: 3em;
+  }
+}
+@media (min-width: 40em) {
+  .contact-content p {
+    font-size: 5em;
+  }
+}
+@media (min-width: 60em) {
+  .contact-content p {
+    font-size: 8em;
+  }
 }
