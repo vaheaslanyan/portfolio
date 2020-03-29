@@ -18,10 +18,6 @@ const About = () => {
                   <p>Avoided programming thinking it's boring and dull.</p>
                   <p>Decided to try.</p>
                   <p>Love it.</p>
-                  <br />
-                  <br />
-                  <br />
-                  <br />
                   <p>Keep scrolling.</p>
                 </div>
               </Col>
