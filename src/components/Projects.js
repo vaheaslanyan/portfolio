@@ -24,7 +24,12 @@ const Projects = () => {
                   <Card>
                     <Card.Header>
                       <div className="icons">
-                        <img src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1584823044/portfolio/HoopScoopLogoNEW_mn8uh2.png" />
+                        <a
+                          href="https://thehoopscoop-app.firebaseapp.com/"
+                          target="_blank"
+                        >
+                          <img src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1584823044/portfolio/HoopScoopLogoNEW_mn8uh2.png" />
+                        </a>
                       </div>
                     </Card.Header>
                     <Card.Body>
@@ -44,7 +49,12 @@ const Projects = () => {
                   <Card>
                     <Card.Header>
                       <div className="icons">
-                        <img src="https://res.cloudinary.com/hsmrn1b8m/image/upload/v1573421644/LevonArt%20Art/Hivand_yxu6he.png" />
+                        <a
+                          href="https://levonart.herokuapp.com/"
+                          target="_blank"
+                        >
+                          <img src="https://res.cloudinary.com/hsmrn1b8m/image/upload/v1573421644/LevonArt%20Art/Hivand_yxu6he.png" />
+                        </a>
                       </div>
                     </Card.Header>
                     <Card.Body>
@@ -67,7 +77,12 @@ const Projects = () => {
                   <Card>
                     <Card.Header>
                       <div className="icons">
-                        <img src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1584823042/portfolio/ExplorersMapLogoNew_y3mbdy.png" />
+                        <a
+                          href="https://explorersmap.herokuapp.com/"
+                          target="_blank"
+                        >
+                          <img src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1584823042/portfolio/ExplorersMapLogoNew_y3mbdy.png" />
+                        </a>
                       </div>
                     </Card.Header>
                     <Card.Body>

@@ -11,17 +11,17 @@ const SocialBar = () => {
     <React.Fragment>
       <div className="social-content">
         <div className="social-item">
-          <a href="#">
+          <a href="https://github.com/vaheaslanyan" target="_blank">
             <FontAwesomeIcon icon={faGit} />
           </a>
         </div>
         <div className="social-item">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/vaheaslanyan/" target="_blank">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
         <div className="social-item">
-          <a href="#">
+          <a href="mailto:vahe.sde@gmail.com" target="_top">
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
         </div>

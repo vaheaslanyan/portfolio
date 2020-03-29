@@ -39,6 +39,7 @@ const Contact = () => {
                     I am currently <span className="available">available</span>{" "}
                     for work.
                   </h4>
+                  <h4>Get in touch with me via email or LinkedIn.</h4>
                 </Col>
               </Row>
               <Row>
