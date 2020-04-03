@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 import NavBar from "./components/shared/NavBar";
 import Hello from "./components/Hello";
@@ -25,10 +24,3 @@ const App = () => {
 };
 
 export default App;
-
-/*
-      <About />
-      <Knowledge />
-      <Projects />
-      <Contact />
-*/
