@@ -648,3 +648,15 @@ body {
     font-size: 8em;
   }
 }
+
+/* Footer */
+
+footer {
+  background-color: #2e9cca;
+  text-align: center;
+  height: 2rem;
+}
+
+.footer-main p {
+  margin: 0;
+}

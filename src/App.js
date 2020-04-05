@@ -7,6 +7,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Knowledge from "./components/Knowledge";
 import Contact from "./components/Contact";
+import Footer from "./components/shared/Footer";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Projects />
         <Knowledge />
         <Contact />
+        <Footer />
       </div>
     </React.Fragment>
   );
