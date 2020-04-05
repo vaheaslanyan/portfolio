@@ -11,7 +11,7 @@ const About = () => {
       <div className="row row-even">
         <div className="inside-row-div">
           <Container>
-            <Row>
+            <Row className="justify-content-center">
               <Col>
                 <div className="about-content">
                   <p>Was always good with computers.</p>
