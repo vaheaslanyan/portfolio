@@ -3,6 +3,10 @@ body {
   color: #474747 !important;
 }
 
+#body-div {
+  overflow-x: hidden;
+}
+
 #main-div {
   background-color: #aaabb8;
   margin-right: -15px;
