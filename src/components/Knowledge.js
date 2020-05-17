@@ -135,9 +135,9 @@ const Knowledge = () => {
                 <Col>
                   <div className="knowledge-item knowledge-normal">
                     <div className="knowledge-logo-container">
-                      <img src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1584309126/portfolio/swiftui-96x96_2x_kkibsb.png"></img>
+                      <img src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1589745201/portfolio/58482ce4cef1014c0b5e4a4c_xuguox.png"></img>
                     </div>
-                    <h5 className="knowledge-item-title">SwiftUI</h5>
+                    <h5 className="knowledge-item-title">Swift</h5>
                   </div>
                 </Col>
                 <Col>
