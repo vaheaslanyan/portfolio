@@ -45,6 +45,21 @@ const Knowledge = () => {
               </Row>
               <Row>
                 <Col>
+                  <h3>App Development</h3>
+                </Col>
+              </Row>
+              <Row>
+              <Col>
+                  <div className="knowledge-item knowledge-normal">
+                    <div className="knowledge-logo-container">
+                      <img src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1589745201/portfolio/58482ce4cef1014c0b5e4a4c_xuguox.png"></img>
+                    </div>
+                    <h5 className="knowledge-item-title">Swift</h5>
+                  </div>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
                   <h3>Front-End</h3>
                 </Col>
               </Row>
@@ -132,14 +147,6 @@ const Knowledge = () => {
                 </Col>
               </Row>
               <Row>
-                <Col>
-                  <div className="knowledge-item knowledge-normal">
-                    <div className="knowledge-logo-container">
-                      <img src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1589745201/portfolio/58482ce4cef1014c0b5e4a4c_xuguox.png"></img>
-                    </div>
-                    <h5 className="knowledge-item-title">Swift</h5>
-                  </div>
-                </Col>
                 <Col>
                   <div className="knowledge-item knowledge-normal">
                     <div className="knowledge-logo-container">
