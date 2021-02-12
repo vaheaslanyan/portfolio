@@ -16,7 +16,7 @@ const Projects = () => {
             <div className="project-div">
               <Row>
                 <Col>
-                  <h3>Some Projects</h3>
+                  <h3>Projects</h3>
                 </Col>
               </Row>
               <Row>
