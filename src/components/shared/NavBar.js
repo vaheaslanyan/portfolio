@@ -5,7 +5,7 @@ import React from "react";
 import SocialBar from "./SocialBar";
 
 //Bootstrap
-import Container from "react-bootstrap/Container";
+//import Container from "react-bootstrap/Container";
 
 const NavBar = () => {
   return (

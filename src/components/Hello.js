@@ -15,7 +15,7 @@ const Hello = () => {
               <Row className="justify-content-center">
                 <Col md="auto">
                   <div className="profile-div">
-                    <img src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1586229157/portfolio/D9750C43-166A-45E2-BB0F-7DA49DFE8AD0_fp2kyi.jpg" />
+                    <img src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1586229157/portfolio/D9750C43-166A-45E2-BB0F-7DA49DFE8AD0_fp2kyi.jpg" alt="Vahe profile"/>
                   </div>
                 </Col>
               </Row>
@@ -29,7 +29,7 @@ const Hello = () => {
             </Container>
             <Container fluid>
               <Row>
-                <h2>Full-Stack Software Developer</h2>
+                <h2>iOS Developer</h2>
               </Row>
             </Container>
           </div>

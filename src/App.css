@@ -7,6 +7,15 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  color: #474747;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 #main-div {
   background-color: #aaabb8;
   margin-right: -15px;
@@ -71,6 +80,10 @@ body {
 
 .row-even h3 {
   background-color: #b2b3c0;
+}
+
+#projects-notes-div {
+  padding: 0 0 40px 0
 }
 
 /* Bootstrap General */
@@ -192,9 +205,8 @@ body {
 .hello-container-div h2 {
   background-color: #005a80;
   color: #aaabb8;
-  font-size: 1rem;
+  font-size: 1.3rem;
   padding: 0.3rem;
-  text-transform: uppercase;
   width: 100vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
