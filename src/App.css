@@ -82,9 +82,7 @@ a:hover {
   background-color: #b2b3c0;
 }
 
-#projects-notes-div {
-  padding: 0 0 40px 0
-}
+
 
 /* Bootstrap General */
 
@@ -399,6 +397,11 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 7rem;
+}
+
+#projects-notes-div {
+  padding: 0 0 40px 0
 }
 
 .icons img {
