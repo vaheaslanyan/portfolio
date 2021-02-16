@@ -17,6 +17,9 @@ const Projects = () => {
               <Row>
                 <Col>
                   <h3>Projects</h3>
+                  <div>
+                    <p>click on any project icon for preview.</p>
+                  </div>
                 </Col>
               </Row>
               <Row>
@@ -41,11 +44,11 @@ const Projects = () => {
                       <p>
                         The app is curently in beta testing. You can get access to beta by clicking on the project image above from any iOS device.
                       </p>
-                      <h5>Languages used</h5>
+                      <h5>Built using:</h5>
                       <ul>
                         <li>Swift</li>
                         <li>Objective-C</li>
-                        <li>Heroku</li>
+                        <li>Firebase</li>
                       </ul>
                     </Card.Body>
                   </Card>
@@ -69,7 +72,7 @@ const Projects = () => {
                       <h4>HoopScoop</h4>
                       <p>An initial prototype for GotGame iOS app (look above).</p>
                       <p>Will possibly be converted to a desktop version of GotGame in future.</p>
-                      <h5>Languages used</h5>
+                      <h5>Built using:</h5>
                       <ul>
                         <li>HTML, CSS, JS</li>
                         <li>React.js</li>
@@ -97,7 +100,7 @@ const Projects = () => {
                       <p>
                         An online art gallery store for painter Levon Grujinian.
                       </p>
-                      <h5>Languages used</h5>
+                      <h5>Built using:</h5>
                       <ul>
                         <li>HTML, CSS, JS</li>
                         <li>EJS</li>
@@ -124,7 +127,7 @@ const Projects = () => {
                     <Card.Body>
                       <h4>travlr</h4>
                       <p>A map for travelers to mark places traveled.</p>
-                      <h5>Languages used</h5>
+                      <h5>Built using:</h5>
                       <ul>
                         <li>HTML, CSS, JS</li>
                         <li>EJS</li>
@@ -139,7 +142,7 @@ const Projects = () => {
               <Row>
                 <Col>
                 <div id="projects-notes-div">
-                  <p>Feel free to visit my <a href="https://github.com/vaheaslanyan" target="_blank" rel="noopener noreferrer">GitHub page</a> , where you can find source code for many of the projects as well as mire minor projects</p>
+                  <p>Feel free to visit my <a href="https://github.com/vaheaslanyan" target="_blank" rel="noopener noreferrer">GitHub page</a> where you can find source code for many of the projects as well as more minor projects.</p>
                 </div>
                 </Col>
               </Row>
