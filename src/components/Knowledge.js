@@ -141,7 +141,7 @@ const Knowledge = () => {
 								</Col>
 							</Row>
 							<Row>
-              <Col>
+								<Col>
 									<div className="knowledge-item knowledge-normal">
 										<div className="knowledge-logo-container">
 											<img
@@ -177,8 +177,8 @@ const Knowledge = () => {
 									</div>
 								</Col>
 							</Row>
-              <Row>
-              <Col>
+							<Row>
+								<Col>
 									<div className="knowledge-item knowledge-normal">
 										<div className="knowledge-logo-container">
 											<p className="express-logo-text">
@@ -190,7 +190,7 @@ const Knowledge = () => {
 										</h5>
 									</div>
 								</Col>
-              </Row>
+							</Row>
 							<Row>
 								<Col>
 									<h3>Platforms and Environments</h3>
@@ -248,6 +248,52 @@ const Knowledge = () => {
 										</div>
 										<h5 className="knowledge-item-title">
 											Firebase
+										</h5>
+									</div>
+								</Col>
+							</Row>
+							<Row>
+								<Col>
+									<h3>DevOps</h3>
+								</Col>
+							</Row>
+							<Row>
+								<Col>
+									<div className="knowledge-item knowledge-normal">
+										<div className="knowledge-logo-container">
+											<img
+												src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1670688152/portfolio/gitlab-logo-png-transparent_k4ud7n.png"
+												alt="GitLab logo"
+											></img>
+										</div>
+										<h5 className="knowledge-item-title">
+											GitLab
+										</h5>
+									</div>
+								</Col>
+                <Col>
+									<div className="knowledge-item knowledge-normal">
+										<div className="knowledge-logo-container">
+											<img
+												src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1670688259/portfolio/1200px-Jenkins_logo.svg_bc9ifg.png"
+												alt="Jenkins Pipeline Log"
+											></img>
+										</div>
+										<h5 className="knowledge-item-title">
+											Jenkins
+										</h5>
+									</div>
+								</Col>
+                <Col>
+									<div className="knowledge-item knowledge-normal">
+										<div className="knowledge-logo-container">
+											<img
+												src="https://res.cloudinary.com/hbmteb7ks/image/upload/v1670688326/portfolio/Moby-logo-sm_frc9nr.webp"
+												alt="Docker Containers Software Logo"
+											></img>
+										</div>
+										<h5 className="knowledge-item-title">
+											Docker
 										</h5>
 									</div>
 								</Col>
