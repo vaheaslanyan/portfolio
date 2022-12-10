@@ -15,13 +15,12 @@ const About = () => {
 						<Row className="justify-content-center">
 							<Col>
 								<div className="about-content">
-									<p>Was always good with computers.</p>
+									<p>Welcome to my portfolio.</p>
 									<p>
-										Avoided programming thinking it's boring
-										and dull.
+										Knowledge and some projects are included below.
 									</p>
-									<p>Decided to try.</p>
-									<p>Love it.</p>
+									<p>Feel free to reach out to me with any questions.</p>
+									<p>Thank you for your interest.</p>
 									<p>Keep scrolling.</p>
 								</div>
 							</Col>

@@ -265,7 +265,7 @@ a:hover {
 }
 
 .about-content p:nth-child(1) {
-  width: 31ch;
+  width: 24ch;
   -webkit-animation: type 2s steps(31, end);
   animation: type 3s steps(31, end);
   -webkit-animation-fill-mode: forwards;
@@ -273,7 +273,7 @@ a:hover {
 }
 
 .about-content p:nth-child(2) {
-  width: 50ch;
+  width: 47ch;
   opacity: 0;
   -webkit-animation: type2 3s steps(50, end);
   animation: type2 3s steps(50, end);
@@ -284,10 +284,10 @@ a:hover {
 }
 
 .about-content p:nth-child(3) {
-  width: 15ch;
+  width: 48ch;
   opacity: 0;
-  -webkit-animation: type2 2s steps(15, end);
-  animation: type2 2s steps(15, end);
+  -webkit-animation: type2 2s steps(50, end);
+  animation: type2 2s steps(50, end);
   -webkit-animation-delay: 6s;
   animation-delay: 6s;
   -webkit-animation-fill-mode: forwards;
@@ -295,10 +295,10 @@ a:hover {
 }
 
 .about-content p:nth-child(4) {
-  width: 8ch;
+  width: 28ch;
   opacity: 0;
-  -webkit-animation: type2 2s steps(8, end);
-  animation: type2 2s steps(8, end);
+  -webkit-animation: type2 2s steps(28, end);
+  animation: type2 2s steps(28, end);
   -webkit-animation-delay: 9s;
   animation-delay: 9s;
   -webkit-animation-fill-mode: forwards;
