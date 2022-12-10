@@ -31,21 +31,27 @@ const About = () => {
 								<div id="bio-div">
 									<h5>Quick Bio</h5>
 									<p>
-										Junior iOS Developer with 2 years of
-										programming experience. Strong passion
-										for tech, problem solving, and
-										delivering simplistic yet impactful
-										experiences to users.
+										Full-stack software engineer with over 4
+										years of experience building web and
+										mobile applications (including
+										enterprise level).
 									</p>
 									<p>
-										Started in the industry by getting into
-										full-stack web development and gradually
-										moved to iOS engineering. Resolving
-										complex problems with simple solutions.
-										Good practices of clean code design.
-										Always eager to learn and improve.
-										Highly-motivated self-learner and a good
-										team player
+										Specialized in{" "}
+										<strong>
+											Java with Spring boot and Angular
+										</strong>{" "}
+										while also having competence and
+										experience in many other languages,
+										frameworks, tools, and libraries.
+									</p>
+									<p>
+										Resolving complex problems with simple
+										solutions. Clean code design is a must
+										for me. Constantly learning and
+										improving. Highly-motivated and driven,
+										which lets me work alone easily, however
+										I do enjoy working in teams.
 									</p>
 								</div>
 							</Col>
