@@ -29,7 +29,7 @@ const Hello = () => {
             </Container>
             <Container fluid>
               <Row>
-                <h2>iOS Developer</h2>
+                <h2>Full-Stack Software Engineer</h2>
               </Row>
             </Container>
           </div>

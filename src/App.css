@@ -501,6 +501,13 @@ a:hover {
   justify-content: center;
 }
 
+.knowledge-logo-container img {
+  object-fit: scale-down;
+  height: 100%;
+  width: 100%;
+
+}
+
 .knowledge-item-title {
   word-wrap: break-word;
   line-height: 1em;
