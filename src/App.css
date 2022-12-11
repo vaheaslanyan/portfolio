@@ -429,7 +429,7 @@ a:hover {
   object-fit:contain;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-  background-color: #474747;
+  background-color: #222 ;
   color: white;
 
   display: flex;
