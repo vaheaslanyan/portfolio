@@ -224,7 +224,7 @@ const Projects = () => {
 								</Col>
 								<Col>
 									<Card>
-                  <Card.Header>
+										<Card.Header>
 											<div className="icons">
 												<a
 													href="https://github.com/vaheaslanyan/FoodHero"
@@ -253,13 +253,13 @@ const Projects = () => {
 										</Card.Body>
 									</Card>
 								</Col>
-                <Col>
+								<Col>
 									<Card>
-                  <Card.Header>
+										<Card.Header>
 											<div className="icons">
-													<p className="express-logo-text project-no-logo-div">
-                            RSS
-                          </p>
+												<p className="express-logo-text project-no-logo-div">
+													RSS
+												</p>
 											</div>
 										</Card.Header>
 										<Card.Body>
@@ -267,32 +267,32 @@ const Projects = () => {
 											<p>
 												An e-commerce store for company branded items. The website includes an admin portal that allows for adding items to the store. Customers are able to browse items, search items, add them to the cart, and checkout the orders. The website also included dark mode switch.
 											</p>
-                      <p>
+											<p>
 												This project was built in a
 												team.
 											</p>
 											<h5>Main technologies:</h5>
 											<ul>
 												<li>Java</li>
-                        <li>Spring Boot</li>
-                        <li>Angular</li>
+												<li>Spring Boot</li>
+												<li>Angular</li>
 												<li>PostgreSQL</li>
 												<li>Google Cloud Platform</li>
-                        <li>Jenkins</li>
-                        <li>Docker</li>
+												<li>Jenkins</li>
+												<li>Docker</li>
 											</ul>
 										</Card.Body>
 									</Card>
 								</Col>
 							</Row>
-              <Row>
-              <Col>
+							<Row>
+								<Col>
 									<Card>
-                  <Card.Header>
+										<Card.Header>
 											<div className="icons">
-													<p className="express-logo-text project-no-logo-div">
-                            PG
-                          </p>
+												<p className="express-logo-text project-no-logo-div">
+													PG
+												</p>
 											</div>
 										</Card.Header>
 										<Card.Body>
@@ -300,31 +300,37 @@ const Projects = () => {
 											<p>
 												A social media platform, similar to Instagram. Unauthenticated users are able to view the posts and read the comments. The posts also include comment count as well as timestamps for both posts and comments. After registration or login, the users are able, in addition, to upload pictures as a post, comment on posts.
 											</p>
-                      <p>
+											<p>
 												This project was built in a
 												team.
 											</p>
 											<h5>Main technologies:</h5>
 											<ul>
 												<li>Java</li>
-                        <li>Spring Boot</li>
-                        <li>Angular</li>
+												<li>Spring Boot</li>
+												<li>Angular</li>
 												<li>H2 SQL Database</li>
 												<li>Google Cloud Platform</li>
-                        <li>Jenkins</li>
-                        <li>Docker</li>
-                        <li>Gitlab & Figma</li>
+												<li>Jenkins</li>
+												<li>Docker</li>
+												<li>Gitlab & Figma</li>
 											</ul>
 										</Card.Body>
 									</Card>
 								</Col>
-                <Col>
+								<Col>
 									<Card>
-                  <Card.Header>
+										<Card.Header>
 											<div className="icons">
-													<p className="express-logo-text project-no-logo-div">
-                            Noted
-                          </p>
+											<a
+													href="https://github.com/vaheaslanyan/Notes"
+													target="_blank"
+													rel="noopener noreferrer"
+												>
+												<p className="express-logo-text project-no-logo-div">
+													Noted
+												</p>
+												</a>
 											</div>
 										</Card.Header>
 										<Card.Body>
@@ -335,8 +341,8 @@ const Projects = () => {
 											<h5>Main technologies:</h5>
 											<ul>
 												<li>Java</li>
-                        <li>Spring Boot</li>
-                        <li>React</li>
+												<li>Spring Boot</li>
+												<li>React</li>
 												<li>H2 SQL Database</li>
 											</ul>
 										</Card.Body>
