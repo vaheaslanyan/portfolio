@@ -381,6 +381,49 @@ const Projects = () => {
 									<Card>
 										<Card.Header>
 											<div className="icons">
+												<p className="express-logo-text project-no-logo-div">
+													QM
+												</p>
+											</div>
+										</Card.Header>
+										<Card.Body>
+											<h4>QuizMonster</h4>
+											<p>
+												An assessment platform for
+												quizzing users. User platform
+												allows seeing assigned quizzes,
+												taking quizzes, and seeing quiz
+												graded results. Admin platfrom
+												allows for creating questions,
+												assembling quizzes, assinging
+												quizzes to users, and viewing
+												results. Autograder intakes
+												quzzes and grades them
+												automatically.
+											</p>
+											<p>
+												This project was built in a
+												team.
+											</p>
+											<h5>Main technologies:</h5>
+											<ul>
+												<li>Java</li>
+												<li>Spring Boot</li>
+												<li>Angular</li>
+												<li>MongoDB</li>
+												<li>Keycloak</li>
+												<li>Google Cloud Platform</li>
+												<li>Jenkins</li>
+												<li>Docker</li>
+												<li>Gitlab & Figma</li>
+											</ul>
+										</Card.Body>
+									</Card>
+								</Col>
+								<Col>
+									<Card>
+										<Card.Header>
+											<div className="icons">
 												<a
 													href="https://github.com/vaheaslanyan/Notes"
 													target="_blank"
