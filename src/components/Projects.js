@@ -239,9 +239,17 @@ const Projects = () => {
 											</div>
 										</Card.Header>
 										<Card.Body>
-											<h4>Employee Reimbursement System</h4>
+											<h4>
+												Employee Reimbursement System
+											</h4>
 											<p>
-												An expense tracking and reimbursement system that allows employees to create expense reimbursement requests along with pictures of receipts. Admin can view requests, approve or deny them.
+												An expense tracking and
+												reimbursement system that allows
+												employees to create expense
+												reimbursement requests along
+												with pictures of receipts. Admin
+												can view requests, approve or
+												deny them.
 											</p>
 											<h5>Main technologies:</h5>
 											<ul>
@@ -249,6 +257,39 @@ const Projects = () => {
 												<li>HTML/JavaScript/CSS</li>
 												<li>PostgreSQL</li>
 												<li>Google Cloud Platform</li>
+											</ul>
+										</Card.Body>
+									</Card>
+								</Col>
+								<Col>
+									<Card>
+										<Card.Header>
+											<div className="icons">
+												<a
+													target="_blank"
+													rel="noopener noreferrer"
+												>
+													<div className="icons">
+														<p className="express-logo-text project-no-logo-div">
+															DMS
+														</p>
+													</div>
+												</a>
+											</div>
+										</Card.Header>
+										<Card.Body>
+											<h4>Delivery Management System</h4>
+											<p>
+												A delivery management system for
+												bakery that allows to change
+												status and track orders.
+											</p>
+											<h5>Main technologies:</h5>
+											<ul>
+												<li>Java</li>
+												<li>Spring Boot</li>
+												<li>Angular</li>
+												<li>PostgreSQL</li>
 											</ul>
 										</Card.Body>
 									</Card>
@@ -265,7 +306,15 @@ const Projects = () => {
 										<Card.Body>
 											<h4>Revature Swag Shop</h4>
 											<p>
-												An e-commerce store for company branded items. The website includes an admin portal that allows for adding items to the store. Customers are able to browse items, search items, add them to the cart, and checkout the orders. The website also included dark mode switch.
+												An e-commerce store for company
+												branded items. The website
+												includes an admin portal that
+												allows for adding items to the
+												store. Customers are able to
+												browse items, search items, add
+												them to the cart, and checkout
+												the orders. The website also
+												included dark mode switch.
 											</p>
 											<p>
 												This project was built in a
@@ -298,7 +347,17 @@ const Projects = () => {
 										<Card.Body>
 											<h4>Pixelgram</h4>
 											<p>
-												A social media platform, similar to Instagram. Unauthenticated users are able to view the posts and read the comments. The posts also include comment count as well as timestamps for both posts and comments. After registration or login, the users are able, in addition, to upload pictures as a post, comment on posts.
+												A social media platform, similar
+												to Instagram. Unauthenticated
+												users are able to view the posts
+												and read the comments. The posts
+												also include comment count as
+												well as timestamps for both
+												posts and comments. After
+												registration or login, the users
+												are able, in addition, to upload
+												pictures as a post, comment on
+												posts.
 											</p>
 											<p>
 												This project was built in a
@@ -322,21 +381,23 @@ const Projects = () => {
 									<Card>
 										<Card.Header>
 											<div className="icons">
-											<a
+												<a
 													href="https://github.com/vaheaslanyan/Notes"
 													target="_blank"
 													rel="noopener noreferrer"
 												>
-												<p className="express-logo-text project-no-logo-div">
-													Noted
-												</p>
+													<p className="express-logo-text project-no-logo-div">
+														Noted
+													</p>
 												</a>
 											</div>
 										</Card.Header>
 										<Card.Body>
 											<h4>Noted</h4>
 											<p>
-												A note taking application that allows users to add and delete notes.
+												A note taking application that
+												allows users to add and delete
+												notes.
 											</p>
 											<h5>Main technologies:</h5>
 											<ul>
