@@ -12,14 +12,28 @@ const About = () => {
 			<div className="row row-even">
 				<div className="inside-row-div">
 					<Container>
+						<Row>
+							<Col>
+							<div id="newPortfolioRedirectDiv">
+							<div id="newPortfolioRedirectText">This portfolio is deprecated. Check out the new version.</div>
+								<a href="https://urartusoftware.com/vahe" id="newPortfolioBtn">
+									Go to new portfolio
+								</a>
+							</div>
+							</Col>
+						</Row>
 						<Row className="justify-content-center">
 							<Col>
 								<div className="about-content">
 									<p>Welcome to my portfolio.</p>
 									<p>
-										Knowledge and some projects are included below.
+										Knowledge and some projects are included
+										below.
 									</p>
-									<p>Feel free to reach out to me with any questions.</p>
+									<p>
+										Feel free to reach out to me with any
+										questions.
+									</p>
 									<p>Thank you for your interest.</p>
 									<p>Keep scrolling.</p>
 								</div>

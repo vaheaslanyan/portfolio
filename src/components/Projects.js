@@ -31,7 +31,7 @@ const Projects = () => {
 										<Card.Header>
 											<div className="icons">
 												<a
-													href="https://testflight.apple.com/join/FdrrpRJX"
+													// href="https://testflight.apple.com/join/FdrrpRJX"
 													target="_blank"
 													rel="noopener noreferrer"
 												>
@@ -75,7 +75,7 @@ const Projects = () => {
 										<Card.Header>
 											<div className="icons">
 												<a
-													href="https://thehoopscoop-app.firebaseapp.com/"
+													// href="https://thehoopscoop-app.firebaseapp.com/"
 													target="_blank"
 													rel="noopener noreferrer"
 												>
@@ -112,7 +112,7 @@ const Projects = () => {
 										<Card.Header>
 											<div className="icons">
 												<a
-													href="https://levonart.herokuapp.com/"
+													// href="https://levonart.herokuapp.com/"
 													target="_blank"
 													rel="noopener noreferrer"
 												>
@@ -145,7 +145,7 @@ const Projects = () => {
 										<Card.Header>
 											<div className="icons">
 												<a
-													href="https://explorersmap.herokuapp.com/"
+													// href="https://explorersmap.herokuapp.com/"
 													target="_blank"
 													rel="noopener noreferrer"
 												>
@@ -180,7 +180,7 @@ const Projects = () => {
 										<Card.Header>
 											<div className="icons">
 												<a
-													href="https://github.com/vaheaslanyan/FoodHero"
+													// href="https://github.com/vaheaslanyan/FoodHero"
 													target="_blank"
 													rel="noopener noreferrer"
 												>
@@ -227,7 +227,7 @@ const Projects = () => {
 										<Card.Header>
 											<div className="icons">
 												<a
-													href="https://github.com/vaheaslanyan/FoodHero"
+													// href="https://github.com/vaheaslanyan/FoodHero"
 													target="_blank"
 													rel="noopener noreferrer"
 												>
@@ -425,7 +425,7 @@ const Projects = () => {
 										<Card.Header>
 											<div className="icons">
 												<a
-													href="https://github.com/vaheaslanyan/Notes"
+													// href="https://github.com/vaheaslanyan/Notes"
 													target="_blank"
 													rel="noopener noreferrer"
 												>

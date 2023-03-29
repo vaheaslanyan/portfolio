@@ -694,6 +694,27 @@ a:hover {
   }
 }
 
+#newPortfolioRedirectDiv {
+  height: 200px;
+}
+
+#newPortfolioRedirectText {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  
+}
+
+#newPortfolioBtn {
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #2e9cca;
+  color: white;
+
+  font-size: 20px;
+
+}
+
 /* Footer */
 
 footer {
